@@ -30,7 +30,7 @@ class Main extends Component {
               <input type='file' accept=".mp4, .mkv .ogg .wmv" onChange={this.props.captureFile} style={{ width: '250px' }} />
                 <div className="form-group mr-sm-2">
                   <input
-                    id="videoTitle"
+                    id=" videoTitle "
                     type="text"
                     ref={(input) => { this.videoTitle = input }}
                     className="form-control-sm"
